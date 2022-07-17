@@ -9,9 +9,9 @@ const ToggleLangs = () => {
   const { toggleLang } = useContext(Context);
   return (
     <div className="container-langs">
-      <img onClick={() => toggleLang("FR")} src={FrenchLang} />
-      <img onClick={() => toggleLang("EN")} src={EnglishLang} />
-      <img onClick={() => toggleLang("ES")} src={SpanishLang} />
+      <img onClick={() => toggleLang("fr")} src={FrenchLang} />
+      <img onClick={() => toggleLang("en")} src={EnglishLang} />
+      <img onClick={() => toggleLang("es")} src={SpanishLang} />
     </div>
   );
 };
