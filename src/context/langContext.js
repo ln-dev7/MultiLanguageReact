@@ -15,7 +15,7 @@ console.log(browserLang);
 if (supportedLangs.indexOf(browserLang) === -1) {
     alert('Your browser language is not supported. Please use one of the following languages: ' + supportedLangs.join(', '));
 
-    browserLang = 'EN';
+    browserLang = 'en';
 }
 
 const ContextProvider = ({children}) => {
